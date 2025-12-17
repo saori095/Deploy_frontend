@@ -41,7 +41,7 @@ jobs:
       
       #3
       - name: Zip artifact for deployment
-        run:
+        run: |
           cd deploy
           zip -r ../release.zip .
 
